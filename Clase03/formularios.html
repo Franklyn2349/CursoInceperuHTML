@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <!--Etiqueta FORM e INPUT-->
+    <form action="" method="">
+      <input type="text" name="nombre" required />
+      <input type="search" />
+      <input type="phone" />
+      <input type="number" />
+      <input type="password" />
+      <input type="checkbox" />
+      <input type="radio" />
+      <input type="submit" />
+      <input type="button" />
+      <input type="email" />
+      <input type="date" />
+      <input type="color" />
+      <input type="file" accept=".jpg, .png" />
+    </form>
+    <br />
+    <br />
+    <textarea name="comentario" id="comentario" rows="4" cols="30"></textarea>
+    <br />
+    <br />
+    <!--Etoquita SELECT-->
+    <span>Seleccione su nombre</span>
+    <select name="nombres" id="nombre">
+      <option value="fran">Franklyn</option>
+      <option value="den">Denis</option>
+      <option value="leo">Leo</option>
+    </select>
+    <br />
+    <br />
+    <!--Etiqueta LABEL-->
+    <label for="nombre" id="nombre" name="nombre">Nombre: </label>
+    <input type="text" />
+    <label for="nombre" id="nombre" name="nombre">Contaseña: </label>
+    <input type="password" />
+    <br />
+    <br />
+    <!--Etiqueta FIELDSET-->
+    <fieldset>
+      <legend>Contacto</legend>
+      <label for="nombre">Nombre: </label>
+      <input type="text" />
+      <fieldset>
+        <label for="contra">Contraseña:</label>
+        <input type="password" />
+      </fieldset>
+    </fieldset>
+    <br />
+    <br />
+    <!--Etiqueta BUTTON-->
+    <button type="submit">Enviar</button>
+    <br />
+    <br />
+  </body>
+</html>

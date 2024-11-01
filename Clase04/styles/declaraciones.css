@@ -1,0 +1,44 @@
+.rubik-wet-paint-regular {
+  font-family: "Rubik Wet Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-size: 50px;
+  font-weight: normal;
+  color: #33617b;
+  font-family: "Rubik Wet Paint", system-ui;
+  letter-spacing: 0px;
+  font-style: normal;
+  background: greenyellow;
+}
+
+main p {
+  background: blue;
+  margin: 0px 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 20px;
+  border: 300px;
+}
+
+body {
+  background: grey;
+}
+
+div p {
+  text-shadow: 10px 12px 14px rgba(209, 55, 55, 0.6);
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid white;
+  background: none;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  width: 500px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px, 100px;
+}
